@@ -12,7 +12,7 @@ void setup() {
   sodierY = 80*(floor(random(2,6))); //sodier.move
   robotX = 80*(floor(random(2,8))); //robot.move
   robotY = 80*(floor(random(2,6)));
-  laserX = max(robotX-160,robotX+15);
+  laserX = max(robotX-160,robotX+25);
   laserY = robotY+37;
 }
 
